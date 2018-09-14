@@ -1,0 +1,96 @@
+/** colors **/
+#todo-list-wrapper {
+  height: 100%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 0; }
+  #todo-list-wrapper li {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: orange;
+    padding: 5px;
+    margin: 0 0 5px 0; }
+/** colors **/
+#todo-container-wrappper {
+  background: #f5f5f5;
+  width: 500px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #todo-container-wrappper #todo-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+    #todo-container-wrappper #todo-form input,
+    #todo-container-wrappper #todo-form button {
+      height: 30px;
+      outline: none;
+      padding: 5px; }
+    #todo-container-wrappper #todo-form input {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 2;
+          -ms-flex-positive: 2;
+              flex-grow: 2; }
+    #todo-container-wrappper #todo-form button {
+      width: 150px; }
+  #todo-container-wrappper .error {
+    color: red; }
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900");
+/** colors **/
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700; }
+
+#root-container {
+  font-size: 14px; }
+  #root-container #__welcome-header {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 30px; }
+  #root-container hr {
+    border: solid 1px rgba(151, 151, 151, 0.18); }
+  #root-container button {
+    background: #4267b2;
+    color: #ffffff;
+    cursor: pointer; }
